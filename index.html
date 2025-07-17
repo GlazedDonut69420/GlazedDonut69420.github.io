@@ -244,19 +244,33 @@
           </p>
           <div class="split style1">
             <section>
-              <form method="post" action="#">
+              <form
+                method="post"
+                action="https://docs.google.com/forms/d/e/YOUR_CONTACT_FORM_ID/formResponse"
+                target="_blank"
+              >
                 <div class="fields">
                   <div class="field half">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <input
+                      type="text"
+                      name="entry.NAME_FIELD_ID"
+                      id="name"
+                      required
+                    />
                   </div>
                   <div class="field half">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
+                    <input
+                      type="email"
+                      name="entry.EMAIL_FIELD_ID"
+                      id="email"
+                      required
+                    />
                   </div>
                   <div class="field">
                     <label for="subject">Subject</label>
-                    <select name="subject" id="subject">
+                    <select name="entry.SUBJECT_FIELD_ID" id="subject" required>
                       <option value="">Select a service</option>
                       <option value="booking">Book a Session</option>
                       <option value="consulting">
@@ -268,11 +282,22 @@
                   </div>
                   <div class="field">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
+                    <textarea
+                      name="entry.MESSAGE_FIELD_ID"
+                      id="message"
+                      rows="5"
+                      required
+                    ></textarea>
                   </div>
                 </div>
                 <ul class="actions">
-                  <li><a href="" class="button submit">Send Message</a></li>
+                  <li>
+                    <input
+                      type="submit"
+                      value="Send Message"
+                      class="button primary"
+                    />
+                  </li>
                 </ul>
               </form>
             </section>
