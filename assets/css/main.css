@@ -2558,7 +2558,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #b74e91;
+  color: #1976d2;
   content: "\f00c";
 }
 
