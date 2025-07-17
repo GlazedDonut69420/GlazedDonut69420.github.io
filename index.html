@@ -180,12 +180,59 @@
       <!-- Tutoring -->
       <section id="tutoring" class="wrapper style2 fade-up">
         <div class="inner">
-          <h2>Get in touch</h2>
+          <h2>Tutoring Services</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
+            Personalized academic support across various subjects and levels.
+            From elementary to graduate studies, we provide comprehensive
+            tutoring solutions tailored to individual learning styles and goals.
+          </p>
+          <div class="features">
+            <section>
+              <span class="icon solid major fa-graduation-cap"></span>
+              <h3>Academic Subjects</h3>
+              <p>
+                Mathematics, Science, Literature, History, and Language Arts
+                tutoring for all grade levels with expert instructors.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-laptop-code"></span>
+              <h3>Technology & Programming</h3>
+              <p>
+                Computer science, programming languages, web development, and
+                digital literacy courses for modern skill building.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-user-graduate"></span>
+              <h3>Test Preparation</h3>
+              <p>
+                SAT, ACT, GRE, GMAT preparation with proven strategies and
+                practice materials for academic success.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-chalkboard-teacher"></span>
+              <h3>Study Skills</h3>
+              <p>
+                Time management, note-taking, research methods, and effective
+                study techniques for lifelong learning success.
+              </p>
+            </section>
+          </div>
+          <ul class="actions">
+            <li><a href="#" class="button">Find a Tutor</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Get In Touch -->
+      <section id="contact" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Get In Touch</h2>
+          <p>
+            Ready to start your journey? Get in touch with us to discuss your
+            needs, schedule a consultation, or learn more about our services.
           </p>
           <div class="split style1">
             <section>
@@ -198,6 +245,18 @@
                   <div class="field half">
                     <label for="email">Email</label>
                     <input type="text" name="email" id="email" />
+                  </div>
+                  <div class="field">
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                      <option value="">Select a service</option>
+                      <option value="booking">Book a Session</option>
+                      <option value="consulting">
+                        AI & Business Consulting
+                      </option>
+                      <option value="tutoring">Tutoring Services</option>
+                      <option value="general">General Inquiry</option>
+                    </select>
                   </div>
                   <div class="field">
                     <label for="message">Message</label>
@@ -214,18 +273,18 @@
                 <li>
                   <h3>Address</h3>
                   <span
-                    >12345 Somewhere Road #654<br />
-                    Nashville, TN 00000-0000<br />
-                    USA</span
+                    >Business Center<br />
+                    Available Online & In-Person<br />
+                    Flexible Locations</span
                   >
                 </li>
                 <li>
                   <h3>Email</h3>
-                  <a href="#">user@untitled.tld</a>
+                  <a href="mailto:contact@example.com">contact@example.com</a>
                 </li>
                 <li>
                   <h3>Phone</h3>
-                  <span>(000) 000-0000</span>
+                  <span>(555) 123-4567</span>
                 </li>
                 <li>
                   <h3>Social</h3>
@@ -236,8 +295,8 @@
                       >
                     </li>
                     <li>
-                      <a href="#" class="icon brands fa-facebook-f"
-                        ><span class="label">Facebook</span></a
+                      <a href="#" class="icon brands fa-linkedin-in"
+                        ><span class="label">LinkedIn</span></a
                       >
                     </li>
                     <li>
@@ -250,14 +309,102 @@
                         ><span class="label">Instagram</span></a
                       >
                     </li>
-                    <li>
-                      <a href="#" class="icon brands fa-linkedin-in"
-                        ><span class="label">LinkedIn</span></a
-                      >
-                    </li>
                   </ul>
                 </li>
               </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feedback -->
+      <section id="feedback" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>Feedback</h2>
+          <p>
+            Your feedback helps us improve our services and better serve our
+            community. Share your experience, suggestions, or testimonials with
+            us.
+          </p>
+          <div class="split style1">
+            <section>
+              <form method="post" action="#">
+                <div class="fields">
+                  <div class="field half">
+                    <label for="feedback-name">Name</label>
+                    <input
+                      type="text"
+                      name="feedback-name"
+                      id="feedback-name"
+                    />
+                  </div>
+                  <div class="field half">
+                    <label for="feedback-email">Email</label>
+                    <input
+                      type="text"
+                      name="feedback-email"
+                      id="feedback-email"
+                    />
+                  </div>
+                  <div class="field">
+                    <label for="rating">Rating</label>
+                    <select name="rating" id="rating">
+                      <option value="">Rate your experience</option>
+                      <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                      <option value="4">⭐⭐⭐⭐ Very Good</option>
+                      <option value="3">⭐⭐⭐ Good</option>
+                      <option value="2">⭐⭐ Fair</option>
+                      <option value="1">⭐ Needs Improvement</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="feedback-message">Your Feedback</label>
+                    <textarea
+                      name="feedback-message"
+                      id="feedback-message"
+                      rows="5"
+                      placeholder="Tell us about your experience..."
+                    ></textarea>
+                  </div>
+                  <div class="field">
+                    <input
+                      type="checkbox"
+                      id="testimonial"
+                      name="testimonial"
+                    />
+                    <label for="testimonial"
+                      >I give permission to use this as a testimonial</label
+                    >
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li><a href="" class="button submit">Submit Feedback</a></li>
+                </ul>
+              </form>
+            </section>
+            <section>
+              <h3>Recent Testimonials</h3>
+              <blockquote>
+                <p>
+                  "Exceptional service and expertise. The AI consulting
+                  transformed our business operations."
+                </p>
+                <cite>- Sarah Johnson, CEO</cite>
+              </blockquote>
+              <blockquote>
+                <p>
+                  "The tutoring sessions were incredibly helpful. My grades
+                  improved significantly!"
+                </p>
+                <cite>- Michael Chen, Student</cite>
+              </blockquote>
+              <blockquote>
+                <p>
+                  "Professional, knowledgeable, and results-driven. Highly
+                  recommend their services."
+                </p>
+                <cite>- David Rodriguez, Business Owner</cite>
+              </blockquote>
             </section>
           </div>
         </div>
