@@ -361,27 +361,33 @@
           </p>
           <div class="split style1">
             <section>
-              <form method="post" action="#">
+              <form
+                method="post"
+                action="https://docs.google.com/forms/d/e/YOUR_FEEDBACK_FORM_ID/formResponse"
+                target="_blank"
+              >
                 <div class="fields">
                   <div class="field half">
                     <label for="feedback-name">Name</label>
                     <input
                       type="text"
-                      name="feedback-name"
+                      name="entry.FEEDBACK_NAME_FIELD_ID"
                       id="feedback-name"
+                      required
                     />
                   </div>
                   <div class="field half">
                     <label for="feedback-email">Email</label>
                     <input
-                      type="text"
-                      name="feedback-email"
+                      type="email"
+                      name="entry.FEEDBACK_EMAIL_FIELD_ID"
                       id="feedback-email"
+                      required
                     />
                   </div>
                   <div class="field">
                     <label for="rating">Rating</label>
-                    <select name="rating" id="rating">
+                    <select name="entry.RATING_FIELD_ID" id="rating" required>
                       <option value="">Rate your experience</option>
                       <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
                       <option value="4">⭐⭐⭐⭐ Very Good</option>
@@ -393,17 +399,19 @@
                   <div class="field">
                     <label for="feedback-message">Your Feedback</label>
                     <textarea
-                      name="feedback-message"
+                      name="entry.FEEDBACK_MESSAGE_FIELD_ID"
                       id="feedback-message"
                       rows="5"
                       placeholder="Tell us about your experience..."
+                      required
                     ></textarea>
                   </div>
                   <div class="field">
                     <input
                       type="checkbox"
                       id="testimonial"
-                      name="testimonial"
+                      name="entry.TESTIMONIAL_FIELD_ID"
+                      value="Yes"
                     />
                     <label for="testimonial"
                       >I give permission to use this as a testimonial</label
@@ -411,7 +419,13 @@
                   </div>
                 </div>
                 <ul class="actions">
-                  <li><a href="" class="button submit">Submit Feedback</a></li>
+                  <li>
+                    <input
+                      type="submit"
+                      value="Submit Feedback"
+                      class="button primary"
+                    />
+                  </li>
                 </ul>
               </form>
             </section>
