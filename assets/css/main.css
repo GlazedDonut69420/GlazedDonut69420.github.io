@@ -3131,7 +3131,7 @@ body.is-ie .spotlights > section {
   -webkit-transition: opacity 1s ease;
   -ms-transition: opacity 1s ease;
   transition: opacity 1s ease;
-  background: rgba(49, 36, 80, 0.9);
+  background: rgba(30, 58, 95, 0.9);
   content: "";
   display: block;
   height: 100%;
@@ -3877,7 +3877,7 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #3c2c62;
+  background: #1f3a52;
 }
 
 #sidebar nav a:after {
