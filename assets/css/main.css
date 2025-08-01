@@ -187,7 +187,7 @@ html {
 }
 
 body {
-  background: #1e3a5f;
+  background: #1a2e2e;
 }
 
 body.is-preload *,
@@ -314,10 +314,10 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #2e5984, #1976d2);
-  background-image: -webkit-linear-gradient(to right, #2e5984, #1976d2);
-  background-image: -ms-linear-gradient(to right, #2e5984, #1976d2);
-  background-image: linear-gradient(to right, #2e5984, #1976d2);
+  background-image: -moz-linear-gradient(to right, #44a08d, #4ecdc4);
+  background-image: -webkit-linear-gradient(to right, #44a08d, #4ecdc4);
+  background-image: -ms-linear-gradient(to right, #44a08d, #4ecdc4);
+  background-image: linear-gradient(to right, #44a08d, #4ecdc4);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -2028,7 +2028,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #1e3a5f !important;
+  color: #1a2e2e !important;
 }
 
 input[type="submit"].primary:after,
@@ -2470,7 +2470,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #1e3a5f;
+  background: #1a2e2e;
 }
 
 select:focus::-ms-value {
@@ -2558,7 +2558,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #1976d2;
+  color: #4ecdc4;
   content: "\f00c";
 }
 
@@ -2639,7 +2639,7 @@ input[type="radio"] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #1e3a5f;
+  color: #1a2e2e;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -2650,27 +2650,27 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #2e5984;
+  color: #44a08d;
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #493382;
+  color: #367a69;
 }
 
 .wrapper.style2 .icon.major:before {
-  color: #5052b5;
+  color: #4ecdc4;
 }
 
 .wrapper.style2-alt .icon.major:before {
-  color: #3e4094;
+  color: #3fb4aa;
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #1976d2;
+  color: #5cb3a8;
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #953d75;
+  color: #f38b94;
 }
 
 /* Image */
@@ -3341,31 +3341,31 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-  background-color: #16314f;
+  background-color: #15252a;
 }
 
 .wrapper.style1 {
-  background-color: #2e5984;
+  background-color: #44a08d;
 }
 
 .wrapper.style1-alt {
-  background-color: #244769;
+  background-color: #367a69;
 }
 
 .wrapper.style2 {
-  background-color: #4a90e2;
+  background-color: #4ecdc4;
 }
 
 .wrapper.style2-alt {
-  background-color: #3674b8;
+  background-color: #3fb4aa;
 }
 
 .wrapper.style3 {
-  background-color: #1976d2;
+  background-color: #5cb3a8;
 }
 
 .wrapper.style3-alt {
-  background-color: #1565c0;
+  background-color: #4a9a90;
 }
 
 .wrapper.fullscreen {
@@ -3487,7 +3487,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #2e5984;
+  background-color: #44a08d;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3631,7 +3631,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #1e3a5f;
+  background: #1a2e2e;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3877,14 +3877,14 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #1f3a52;
+  background: #1e2f2f;
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -moz-linear-gradient(to right, #4ecdc4, #f38b94);
+  background-image: -webkit-linear-gradient(to right, #4ecdc4, #f38b94);
+  background-image: -ms-linear-gradient(to right, #4ecdc4, #f38b94);
+  background-image: linear-gradient(to right, #4ecdc4, #f38b94);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3972,7 +3972,7 @@ body.is-preload #sidebar nav ul li {
 
   #sidebar nav a:after {
     background-image: none;
-    background-color: #b74e91;
+    background-color: #f38b94;
   }
 }
 
