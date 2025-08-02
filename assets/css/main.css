@@ -2655,7 +2655,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #367a69;
+  color: #4F7C82;
 }
 
 .wrapper.style2 .icon.major:before {
@@ -2663,11 +2663,11 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style2-alt .icon.major:before {
-  color: #3fb4aa;
+  color: #93B1B5;
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #E8E3E9;
+  color: #93B1B5;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -3350,7 +3350,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1-alt {
-  background-color: #367a69;
+  background-color: #E8E3E9;
 }
 
 .wrapper.style2 {
@@ -3358,11 +3358,11 @@ table.alt tfoot {
 }
 
 .wrapper.style2-alt {
-  background-color: #3fb4aa;
+  background-color: #0B2E33;
 }
 
 .wrapper.style3 {
-  background-color: #4F7C82;
+  background-color: #0B2E33;
 }
 
 .wrapper.style3-alt {
