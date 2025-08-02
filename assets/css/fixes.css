@@ -49,3 +49,27 @@
   color: #ffffff !important;
   font-weight: bold;
 }
+
+/* Footer improvements */
+#footer {
+  background: linear-gradient(135deg, #2d4a5a 0%, #1e3640 100%) !important;
+  color: rgba(255, 255, 255, 0.8);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#footer .inner {
+  padding: 2em 0;
+}
+
+#footer .menu li {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#footer .menu a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease;
+}
+
+#footer .menu a:hover {
+  color: #ffffff;
+}
