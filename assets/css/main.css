@@ -3414,6 +3414,25 @@ table.alt tfoot {
   color: #0B2E33;
 }
 
+/* Form element improvements for readability */
+.wrapper.style2 input[type="text"],
+.wrapper.style2 input[type="email"],
+.wrapper.style2 select,
+.wrapper.style2 textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0B2E33;
+  border-color: #4F7C82;
+}
+
+.wrapper.style1-alt input[type="text"],
+.wrapper.style1-alt input[type="email"],
+.wrapper.style1-alt select,
+.wrapper.style1-alt textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0B2E33;
+  border-color: #4F7C82;
+}
+
 .wrapper.fullscreen {
   display: -moz-flex;
   display: -webkit-flex;
