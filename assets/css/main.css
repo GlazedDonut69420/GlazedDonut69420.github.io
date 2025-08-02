@@ -187,7 +187,8 @@ html {
 }
 
 body {
-  background: #1a2e2e;
+  background: #0B2E33;
+  color: #E8E3E9;
 }
 
 body.is-preload *,
@@ -314,10 +315,10 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #44a08d, #4ecdc4);
-  background-image: -webkit-linear-gradient(to right, #44a08d, #4ecdc4);
-  background-image: -ms-linear-gradient(to right, #44a08d, #4ecdc4);
-  background-image: linear-gradient(to right, #44a08d, #4ecdc4);
+  background-image: -moz-linear-gradient(to right, #4F7C82, #93B1B5);
+  background-image: -webkit-linear-gradient(to right, #4F7C82, #93B1B5);
+  background-image: -ms-linear-gradient(to right, #4F7C82, #93B1B5);
+  background-image: linear-gradient(to right, #4F7C82, #93B1B5);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -2028,7 +2029,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #1a2e2e !important;
+  color: #0B2E33 !important;
 }
 
 input[type="submit"].primary:after,
@@ -2470,7 +2471,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #1a2e2e;
+  background: #0B2E33;
 }
 
 select:focus::-ms-value {
@@ -2558,7 +2559,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #4ecdc4;
+  color: #93B1B5;
   content: "\f00c";
 }
 
@@ -2639,7 +2640,7 @@ input[type="radio"] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #1a2e2e;
+  color: #0B2E33;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -2650,27 +2651,27 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #44a08d;
+  color: #4F7C82;
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #367a69;
+  color: #4F7C82;
 }
 
 .wrapper.style2 .icon.major:before {
-  color: #4ecdc4;
+  color: #93B1B5;
 }
 
 .wrapper.style2-alt .icon.major:before {
-  color: #3fb4aa;
+  color: #93B1B5;
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #5cb3a8;
+  color: #93B1B5;
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #f38b94;
+  color: #E8E3E9;
 }
 
 /* Image */
@@ -3345,27 +3346,116 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #44a08d;
+  background-color: #4F7C82;
 }
 
 .wrapper.style1-alt {
-  background-color: #367a69;
+  background-color: #E8E3E9;
 }
 
 .wrapper.style2 {
-  background-color: #4ecdc4;
+  background-color: #93B1B5;
 }
 
 .wrapper.style2-alt {
-  background-color: #3fb4aa;
+  background-color: #0B2E33;
 }
 
 .wrapper.style3 {
-  background-color: #5cb3a8;
+  background-color: #0B2E33;
 }
 
 .wrapper.style3-alt {
-  background-color: #4a9a90;
+  background-color: #93B1B5;
+}
+
+/* Text readability improvements */
+.wrapper.style1 {
+  color: #ffffff;
+}
+
+.wrapper.style1 h1,
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 p {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper.style2 {
+  color: #0B2E33;
+}
+
+.wrapper.style2 h1,
+.wrapper.style2 h2,
+.wrapper.style2 h3,
+.wrapper.style2 p {
+  color: #0B2E33;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style3 {
+  color: #E8E3E9;
+}
+
+.wrapper.style3 h1,
+.wrapper.style3 h2,
+.wrapper.style3 h3,
+.wrapper.style3 p {
+  color: #E8E3E9;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper.style1-alt {
+  color: #0B2E33;
+}
+
+.wrapper.style1-alt h1,
+.wrapper.style1-alt h2,
+.wrapper.style1-alt h3,
+.wrapper.style1-alt p {
+  color: #0B2E33;
+}
+
+/* Form element improvements for readability */
+.wrapper.style2 input[type="text"],
+.wrapper.style2 input[type="email"],
+.wrapper.style2 select,
+.wrapper.style2 textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0B2E33;
+  border-color: #4F7C82;
+}
+
+.wrapper.style1-alt input[type="text"],
+.wrapper.style1-alt input[type="email"],
+.wrapper.style1-alt select,
+.wrapper.style1-alt textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0B2E33;
+  border-color: #4F7C82;
+}
+
+/* Button contrast improvements */
+.wrapper.style2 .button.primary {
+  background: #0B2E33;
+  color: #ffffff;
+}
+
+.wrapper.style1-alt .button.primary {
+  background: #4F7C82;
+  color: #ffffff;
+}
+
+/* Link contrast improvements */
+.wrapper.style2 a {
+  color: #0B2E33;
+  font-weight: bold;
+}
+
+.wrapper.style1-alt a {
+  color: #4F7C82;
+  font-weight: bold;
 }
 
 .wrapper.fullscreen {
@@ -3487,7 +3577,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #44a08d;
+  background-color: #4F7C82;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3610,12 +3700,18 @@ body.is-preload .wrapper.fade > .inner {
   }
 }
 
+#footer > .inner {
+  color: #0B2E33;
+}
+
 #footer > .inner a {
-  border-bottom-color: rgba(255, 255, 255, 0.15);
+  border-bottom-color: rgba(11, 46, 51, 0.25);
+  color: #4F7C82;
 }
 
 #footer > .inner a:hover {
   border-bottom-color: transparent;
+  color: #0B2E33;
 }
 
 #footer > .inner .menu {
@@ -3631,7 +3727,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #1a2e2e;
+  background: #0B2E33;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3881,10 +3977,10 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #4ecdc4, #f38b94);
-  background-image: -webkit-linear-gradient(to right, #4ecdc4, #f38b94);
-  background-image: -ms-linear-gradient(to right, #4ecdc4, #f38b94);
-  background-image: linear-gradient(to right, #4ecdc4, #f38b94);
+  background-image: -moz-linear-gradient(to right, #93B1B5, #E8E3E9);
+  background-image: -webkit-linear-gradient(to right, #93B1B5, #E8E3E9);
+  background-image: -ms-linear-gradient(to right, #93B1B5, #E8E3E9);
+  background-image: linear-gradient(to right, #93B1B5, #E8E3E9);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3972,7 +4068,7 @@ body.is-preload #sidebar nav ul li {
 
   #sidebar nav a:after {
     background-image: none;
-    background-color: #f38b94;
+    background-color: #E8E3E9;
   }
 }
 
