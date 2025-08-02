@@ -3622,6 +3622,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #footer > .inner a:hover {
   border-bottom-color: transparent;
+  color: #0B2E33;
 }
 
 #footer > .inner .menu {
