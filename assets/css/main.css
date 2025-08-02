@@ -3433,6 +3433,28 @@ table.alt tfoot {
   border-color: #4F7C82;
 }
 
+/* Button contrast improvements */
+.wrapper.style2 .button.primary {
+  background: #0B2E33;
+  color: #ffffff;
+}
+
+.wrapper.style1-alt .button.primary {
+  background: #4F7C82;
+  color: #ffffff;
+}
+
+/* Link contrast improvements */
+.wrapper.style2 a {
+  color: #0B2E33;
+  font-weight: bold;
+}
+
+.wrapper.style1-alt a {
+  color: #4F7C82;
+  font-weight: bold;
+}
+
 .wrapper.fullscreen {
   display: -moz-flex;
   display: -webkit-flex;
