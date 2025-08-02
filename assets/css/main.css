@@ -2028,7 +2028,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #1a2e2e !important;
+  color: #0B2E33 !important;
 }
 
 input[type="submit"].primary:after,
