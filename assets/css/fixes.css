@@ -52,8 +52,8 @@
 
 /* Footer improvements */
 #footer {
-  background: linear-gradient(135deg, #2d4a5a 0%, #1e3640 100%) !important;
-  color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(135deg, #1a2a2e 0%, #16213e 100%) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -62,14 +62,15 @@
 }
 
 #footer .menu li {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 #footer .menu a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9) !important;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 #footer .menu a:hover {
-  color: #ffffff;
+  color: #ffffff !important;
 }
