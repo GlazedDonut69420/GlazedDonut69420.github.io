@@ -3611,8 +3611,13 @@ body.is-preload .wrapper.fade > .inner {
   }
 }
 
+#footer > .inner {
+  color: #0B2E33;
+}
+
 #footer > .inner a {
-  border-bottom-color: rgba(255, 255, 255, 0.15);
+  border-bottom-color: rgba(11, 46, 51, 0.25);
+  color: #4F7C82;
 }
 
 #footer > .inner a:hover {
