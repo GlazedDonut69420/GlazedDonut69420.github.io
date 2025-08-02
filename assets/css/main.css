@@ -3391,6 +3391,7 @@ table.alt tfoot {
 .wrapper.style2 h3,
 .wrapper.style2 p {
   color: #0B2E33;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
 }
 
 .wrapper.style3 {
