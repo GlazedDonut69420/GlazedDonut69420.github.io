@@ -3451,7 +3451,8 @@ table.alt tfoot {
 .wrapper.style3 label,
 .wrapper.style3 h2,
 .wrapper.style3 h3,
-.wrapper.style3 section {
+.wrapper.style3 section,
+.wrapper.style3 strong {
   color: #0B2E33;
 }
 
