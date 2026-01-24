@@ -3436,6 +3436,17 @@ table.alt tfoot {
   border-color: #4F7C82;
 }
 
+.wrapper.style3 input[type="text"],
+.wrapper.style3 input[type="email"],
+.wrapper.style3 select,
+.wrapper.style3 textarea {
+  color: #0B2E33;
+}
+
+.wrapper.style3 label {
+  color: #0B2E33;
+}
+
 /* Button contrast improvements */
 .wrapper.style2 .button.primary {
   background: #0B2E33;
