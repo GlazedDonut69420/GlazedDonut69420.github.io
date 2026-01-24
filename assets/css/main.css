@@ -3395,15 +3395,15 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  color: #E8E3E9;
+  color: #0B2E33;
 }
 
 .wrapper.style3 h1,
 .wrapper.style3 h2,
 .wrapper.style3 h3,
 .wrapper.style3 p {
-  color: #E8E3E9;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  color: #0B2E33;
+  text-shadow: none;
 }
 
 .wrapper.style1-alt {
