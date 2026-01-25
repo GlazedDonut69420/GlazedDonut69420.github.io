@@ -2638,7 +2638,7 @@ input[type="radio"] + label:before {
   width: 2.5em;
   height: 2.5em;
   display: block;
-  background: #ffffff;
+  background: #f0f4f7;
   border-radius: 100%;
   color: #0B2E33;
   text-align: center;
