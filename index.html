@@ -513,84 +513,111 @@
             us.
           </p>
           <div style="margin-top: 3em;"></div>
-          <section>
-            <form
-              method="post"
-              action="https://docs.google.com/forms/d/e/1FAIpQLScukaeiKyaVYJAeBWAmyqpnb3FSRYk3rHorVJnu3DKOspyf8Q/formResponse"
-              target="_blank"
-            >
-              <div class="fields">
-                <div class="field half">
-                  <label for="feedback-name">Name</label>
-                  <input
-                    type="text"
-                    name="entry.546535756"
-                    id="feedback-name"
-                    style="background-color: #daf1f2; color: #333; border: 2px solid #0B2E33;"
-                    required
-                  />
+          <div class="split">
+            <section>
+              <form
+                method="post"
+                action="https://docs.google.com/forms/d/e/1FAIpQLScukaeiKyaVYJAeBWAmyqpnb3FSRYk3rHorVJnu3DKOspyf8Q/formResponse"
+                target="_blank"
+              >
+                <div class="fields">
+                  <div class="field half">
+                    <label for="feedback-name">Name</label>
+                    <input
+                      type="text"
+                      name="entry.546535756"
+                      id="feedback-name"
+                      style="background-color: #daf1f2; color: #333; border: 2px solid #0B2E33;"
+                      required
+                    />
+                  </div>
+                  <div class="field half">
+                    <label for="feedback-email">Email</label>
+                    <input
+                      type="email"
+                      name="entry.1682096595"
+                      id="feedback-email"
+                      style="background-color: #daf1f2; color: #333; border: 2px solid #0B2E33;"
+                      required
+                    />
+                  </div>
+                  <div class="field">
+                    <label for="rating">Rating</label>
+                    <select name="entry.862282545" id="rating" style="background-color: #daf1f2; color: #0B2E33; border: 2px solid #0B2E33;" required>
+                      <option value="">Rate your experience</option>
+                      <option value="⭐⭐⭐⭐⭐ Excellent">
+                        ⭐⭐⭐⭐⭐ Excellent
+                      </option>
+                      <option value="⭐⭐⭐⭐ Very Good">
+                        ⭐⭐⭐⭐ Very Good
+                      </option>
+                      <option value="⭐⭐⭐ Good">⭐⭐⭐ Good</option>
+                      <option value="⭐⭐ Fair">⭐⭐ Fair</option>
+                      <option value="⭐ Needs Improvement">
+                        ⭐ Needs Improvement
+                      </option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="feedback-message">Your Feedback</label>
+                    <textarea
+                      name="entry.1886158977"
+                      id="feedback-message"
+                      rows="5"
+                      style="background-color: #daf1f2; color: #333; border: 2px solid #0B2E33; resize: vertical; width: 100%; min-height: 120px;"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="field">
+                    <input
+                      type="checkbox"
+                      id="testimonial"
+                      name="entry.884454874"
+                      value="Yes"
+                      style="appearance: none; background-color: #daf1f2; border: 3px solid #000000; width: 28px; height: 28px; cursor: pointer; border-radius: 6px; transition: all 0.2s ease; accent-color: #0B2E33;"
+                    />
+                    <label for="testimonial"
+                      >I give permission to use this as a testimonial</label
+                    >
+                  </div>
                 </div>
-                <div class="field half">
-                  <label for="feedback-email">Email</label>
-                  <input
-                    type="email"
-                    name="entry.1682096595"
-                    id="feedback-email"
-                    style="background-color: #daf1f2; color: #333; border: 2px solid #0B2E33;"
-                    required
-                  />
-                </div>
-                <div class="field">
-                  <label for="rating">Rating</label>
-                  <select name="entry.862282545" id="rating" style="background-color: #daf1f2; color: #0B2E33; border: 2px solid #0B2E33;" required>
-                    <option value="">Rate your experience</option>
-                    <option value="⭐⭐⭐⭐⭐ Excellent">
-                      ⭐⭐⭐⭐⭐ Excellent
-                    </option>
-                    <option value="⭐⭐⭐⭐ Very Good">
-                      ⭐⭐⭐⭐ Very Good
-                    </option>
-                    <option value="⭐⭐⭐ Good">⭐⭐⭐ Good</option>
-                    <option value="⭐⭐ Fair">⭐⭐ Fair</option>
-                    <option value="⭐ Needs Improvement">
-                      ⭐ Needs Improvement
-                    </option>
-                  </select>
-                </div>
-                <div class="field">
-                  <label for="feedback-message">Your Feedback</label>
-                  <textarea
-                    name="entry.1886158977"
-                    id="feedback-message"
-                    rows="5"
-                    style="background-color: #daf1f2; color: #333; border: 2px solid #0B2E33; resize: vertical; width: 100%; min-height: 120px;"
-                    required
-                  ></textarea>
-                </div>
-                <div class="field">
-                  <input
-                    type="checkbox"
-                    id="testimonial"
-                    name="entry.884454874"
-                    value="Yes"
-                    style="appearance: none; background-color: #daf1f2; border: 3px solid #000000; width: 28px; height: 28px; cursor: pointer; border-radius: 6px; transition: all 0.2s ease; accent-color: #0B2E33;"
-                  />
-                  <label for="testimonial"
-                    >I give permission to use this as a testimonial</label
-                  >
-                </div>
+                <ul class="actions">
+                  <li>
+                    <input
+                      type="submit"
+                      value="Submit Feedback"
+                      class="button primary large"
+                    />
+                  </li>
+                </ul>
+              </form>
+            </section>
+            <section>
+              <h3>Recent Testimonials</h3>
+              <div class="testimonial-card">
+                <p style="color: #0B2E33; line-height: 1.8; margin-bottom: 1.5em;">
+                  "AT-WILL but UNBREAKABLE" is a potent blend of professional advice, practical tips, emotional support, and personal touch that equips you with the tools you need to navigate the journey from job-loss to your life's next chapter.
+                  <br><br>
+                  Milind's focus on process and maintaining a growth mindset helps readers reframe what can seem like negative experiences into opportunities to improve. He also provides extremely practical tips to help you manage the day-to-day ups and downs of the process, from meditation to journaling to finding daily joy.
+                  <br><br>
+                  In "AT-WILL but UNBREAKABLE," Milind has created a valuable blueprint for anyone going through this difficult part of life.
+                </p>
               </div>
-              <ul class="actions">
-                <li>
-                  <input
-                    type="submit"
-                    value="Submit Feedback"
-                    class="button primary large"
-                  />
-                </li>
-              </ul>
-            </form>
-          </section>
+              <div class="testimonial-card">
+                <p style="color: #0B2E33; line-height: 1.8; margin-bottom: 1.5em;">
+                  "AT-WILL but UNBREAKABLE" is a potent blend of professional advice, practical tips, emotional support, and personal touch that equips you with the tools you need to navigate the journey from job-loss to your life's next chapter.
+                  <br><br>
+                  Milind's focus on process and maintaining a growth mindset helps readers reframe what can seem like negative experiences into opportunities to improve. He also provides extremely practical tips to help you manage the day-to-day ups and downs of the process, from meditation to journaling to finding daily joy.
+                  <br><br>
+                  In "AT-WILL but UNBREAKABLE," Milind has created a valuable blueprint for anyone going through this difficult part of life.
+                  <br><br>
+                  <span style="font-weight: bold;">— Justin Kelleher</span>
+                  <br>
+                  <span style="font-size: 0.95em;">Financial Planner at First Financial Associates, LLC</span>
+                </p>
+              </div>
+            </section>
+          </div>
         </div>
       </section>
     </div>
